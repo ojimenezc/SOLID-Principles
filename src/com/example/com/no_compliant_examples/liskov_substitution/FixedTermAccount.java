@@ -13,6 +13,6 @@ public class FixedTermAccount extends Account{
 
     @Override
     public void withdraw(float amount) {
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException();
     }
 }

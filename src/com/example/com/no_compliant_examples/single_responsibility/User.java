@@ -33,9 +33,4 @@ public class User {
         //TODO: For saving password neve user Base64 encoding. This is for demo purposes
         return Base64.getEncoder().encodeToString(clearValue.getBytes(StandardCharsets.UTF_8));
     }
-
-    private String decryptPassword(String encodedValue) {
-        //TODO: For saving password neve user Base64 encoding. This is for demo purposes
-        return Base64.getEncoder().encodeToString(encodedValue.getBytes(StandardCharsets.UTF_8));
-    }
 }
