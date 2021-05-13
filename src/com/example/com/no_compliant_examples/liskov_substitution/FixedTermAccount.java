@@ -1,7 +1,5 @@
 package com.example.com.no_compliant_examples.liskov_substitution;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 /**
  * This class is a type of account that does not support withdraws
  */

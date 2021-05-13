@@ -2,16 +2,16 @@ package com.example.com.no_compliant_examples.open_closed;
 
 public final class OrdersProcessor {
 
-    public boolean getOrderBreakdown(Order order) {
+    public Order getOrderBreakdown(Order order) {
         switch (order.getOrderType()) {
             case "cash":
                 //TODO: Do some order calculation logic
-                return true;
+                return order;
             case "credit":
                 //TODO: Do some order calculation logic
-                return true;
+                return order;
             default:
-                return false;
+                return order;
         }
     }
 }
